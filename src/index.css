@@ -31,6 +31,8 @@ html{
 
 h1,h2,h3,h4,h5,.font-heading {
   font-family: var(--font-family-head);
+  font-weight: 700;
+  letter-spacing: 0.03rem;
 }
 
 
@@ -108,29 +110,42 @@ a:focus::before{
 }
 
 
-
-
+h1{
+  font-size: 24px;
+}
 /* Tablet */
 
 @media (min-width: 768px){
-
+  .section__padding{
+    padding: 3rem;
+  }
 }
 
 
 @media (min-width: 1024px){
+  .section__padding{
+    padding: 4rem;
+  }
 
+  h1{
+    font-size: 36px;
+  }
 }
 
 
 /* lx screen */
 
 @media (min-width: 1280px){
-
+  h1{
+    font-size: 48px;
+  }
 }
 
 
 /* 2lx screen */
 
 @media (min-width: 1536px){
-
+  .section__padding{
+    padding: 5rem;
+  }
 }
