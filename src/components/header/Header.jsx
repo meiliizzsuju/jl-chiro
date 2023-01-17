@@ -45,7 +45,7 @@ const Header = () => {
   console.log(navToggle)
 
   return (
-    <header className='header section__padding'>
+    <header className='header'>
       <div className='mx-auto'>
         <div className='header__wrapper w-full'>
 

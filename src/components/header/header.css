@@ -1,6 +1,7 @@
 .header{
   background-color: var(--color-primary);
   color: var(--color-text-light);
+  padding: 2rem;
 }
 
 .header__wrapper{
@@ -43,6 +44,10 @@
 }
 
 @media (min-width: 768px){
+  .header{
+    padding: 2rem 3rem;
+  }
+
   .header__nav{
     display: block;
   }
@@ -114,10 +119,13 @@
 
 
 @media (min-width: 1024px){
+  .header{
+    padding: 2rem 4rem;
+  }
+
   .header__nav--icon{
     display: none;
   }
-
 
   .header__nav{
     order: 2;
@@ -135,5 +143,11 @@
   .header__nav ul a{
     margin: 1rem;
     padding: 0.25rem;
+  }
+}
+
+@media (min-width: 1536px){
+  .header{
+    padding: 2rem 5rem;
   }
 }
