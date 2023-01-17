@@ -35,6 +35,11 @@ h1,h2,h3,h4,h5,.font-heading {
   letter-spacing: 0.03rem;
 }
 
+h1,h2,h3,h4,h5,p{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 
 body {
   font-family: var(--font-family);
@@ -113,6 +118,10 @@ a:focus::before{
 h1{
   font-size: 24px;
 }
+h2{
+  font-size: 18px;
+}
+
 /* Tablet */
 
 @media (min-width: 768px){
@@ -130,6 +139,10 @@ h1{
   h1{
     font-size: 36px;
   }
+
+  h2{
+    font-size: 32px;
+  }
 }
 
 
@@ -138,6 +151,10 @@ h1{
 @media (min-width: 1280px){
   h1{
     font-size: 48px;
+  }
+
+  h2{
+    font-size: 40px;
   }
 }
 

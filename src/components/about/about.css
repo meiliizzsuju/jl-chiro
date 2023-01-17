@@ -1,0 +1,41 @@
+.about{
+  background-color: var(--color-secondary-rgb);
+  color: var(--color-btn-text);
+}
+
+.about__image{
+  margin-top: 2rem;
+}
+
+.about__image img{
+  margin: 0 auto;
+}
+
+
+@media (min-width: 768px){
+  .about__content{
+    width: 55%;
+    padding-right: 3rem;
+  }
+  .about__image{
+    width: 45%;
+  }
+}
+
+@media (min-width: 1024px){
+  .about__content{
+    padding-right: 4rem;
+  }
+  .about__content p{
+    width: 100%;
+    max-width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1536px){
+  .about__content{
+    padding-right: 5rem;
+  }
+}
