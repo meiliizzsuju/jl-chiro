@@ -1,0 +1,139 @@
+.header{
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+.header__wrapper{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.header-logo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 180px;
+}
+
+.header-logo::before{
+  display: none;
+}
+
+.header__nav{
+  display: none;
+}
+
+.header__contact > a{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__nav ul a{
+  text-transform: uppercase;
+}
+
+
+
+@media (max-width: 550px){
+  .header.section__padding{
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px){
+  .header__nav{
+    display: block;
+  }
+
+  .header__wrapper{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-logo{
+    width: 30%;
+    order: 1;
+  }
+
+  .header__contact{
+    order: 2;
+    flex: 0 0 auto;
+    width: calc(100% - 30% - 30px);
+    text-align: center;
+  }
+
+  .header__nav{
+    order: 3;
+    position: relative;
+  }
+
+  .header__nav--icon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+  .header__nav--icon::before,
+  .header__nav--icon::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    background-color: var(--color-quinary);
+    transition: all 0.1s ease-in-out;
+  }
+  .header__nav--icon::before{
+    top: 0.5rem;
+  }
+  .header__nav--icon::after{
+    bottom: 0.5rem;
+  }
+
+  .header__nav--icon.toggled::before{
+    transform: rotate(45deg);
+    top: 0.8rem;
+  }
+  .header__nav--icon.toggled::after{
+    transform: rotate(-45deg);
+    bottom: 0.8rem;
+  }
+
+  .header__nav--icon.toggled ~ ul{
+    position: absolute;
+    right: 0;
+    background-color: var(--color-primary);
+    padding: 1rem;
+  }
+  .header__nav--icon.toggled ~ ul li{
+    margin: 0.25rem;
+    padding: 0.25rem;
+  }
+}
+
+
+@media (min-width: 1024px){
+  .header__nav--icon{
+    display: none;
+  }
+
+
+  .header__nav{
+    order: 2;
+    width: auto;
+  }
+
+  .header__contact{
+    order: 3;
+    width: auto;
+  }
+
+  .header__nav ul li{
+    display: inline-block;
+  }
+  .header__nav ul a{
+    margin: 1rem;
+    padding: 0.25rem;
+  }
+}
