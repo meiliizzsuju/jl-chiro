@@ -12,9 +12,9 @@ const Home = () => {
     <div className={PAGE_NAME}>
       <Header/>
       <HomeBanner/>
-      <About/>
       <WhyUS/>
       <Conditions/>
+      <About/>
       <Pricing/>
       <CTAPhone title={content.homeCTA.text} button={content.homeCTA.button} phone_no={content.homeCTA.phone}/>
       <Footer/>

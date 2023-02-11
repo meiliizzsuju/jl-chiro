@@ -3,9 +3,9 @@ export const content = {
     h1: 'SOME BIG TEXT HERE <br/>AND ALSO SOME BIG TEXT HERE'
   },
   about: {
-    h2: 'ABOUT JINLIMBEST <br/>MTF CHIROPATOR',
-    suphead: '',
-    desc: 'More detail about More detail about More detail about More detail about More detail about More detail about More detail about More detail about More detail about More detail about '
+    h2: 'Meet your chiropractor',
+    suphead: 'Dr. Jin young Lim <br/>(chiropractor)',
+    desc: 'He has always been passionate about sports and fitness and was determined to find a way to help others who were suffering from injuries and pain.'
   },
   whyus: {
     h2: "Why choose us?",
