@@ -10,7 +10,7 @@
   --font-family: 'Inter', sans-serif;
   --font-family-head: var(--font-family);
 
-  --color-primary: #2929C1;
+  --color-primary: #5E8DD4;
   --color-secondary-rgb: #1E1E1E;
   --color-tertiary:  var(--color-primary); 
   --color-quaternary: var(--color-secondary-rgb); 

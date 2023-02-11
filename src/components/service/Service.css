@@ -1,0 +1,24 @@
+
+.service img{
+  max-width: 90px;
+  margin: 0 auto;
+}
+
+.service__title{
+  display: block;
+  margin-top: 0.5rem;
+}
+
+
+@media (min-width: 768px) {
+  .service img{
+    max-width: 110px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .service img{
+    max-width: 150px;
+  }
+}

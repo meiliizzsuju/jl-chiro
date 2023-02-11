@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header,HomeBanner,About} from '../components/index';
+import {Header,HomeBanner,About, WhyUS} from '../components/index';
 
 const PAGE_NAME = `page-home`;
 
@@ -10,6 +10,7 @@ const Home = () => {
       <Header/>
       <HomeBanner/>
       <About/>
+      <WhyUS/>
     </div>
   )
 }
