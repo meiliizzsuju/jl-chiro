@@ -5,8 +5,6 @@ import chevronIcon from '../../assets/chevron.png';
 const Toggle = ({item}) => {
   const [toggle, setToggle] = useState(false);
 
-  console.log(item)
-
   return (
     <>
       <div className='jl-pricing__toggle section__padding'  data-toggle={toggle}
