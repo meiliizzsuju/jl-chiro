@@ -19,6 +19,7 @@
   }
   .about__image{
     width: 45%;
+    margin-top: 0;
   }
 }
 

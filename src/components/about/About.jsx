@@ -24,7 +24,7 @@ const About = () => {
             (<p dangerouslySetInnerHTML={{__html:content.about.desc}}></p>)
           }
 
-          <button onClick={()=> navigate(`/what-to-expect`)} className="btn btn-trans">
+          <button onClick={()=> navigate(`/about`)} className="btn btn-trans">
             Read More
           </button>
         </div>

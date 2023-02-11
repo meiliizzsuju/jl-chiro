@@ -7,7 +7,7 @@ const PAGE_NAME = `page-home`;
 
 
 const Home = () => {
-  console.log(content.homeCTA)
+
   return (
     <div className={PAGE_NAME}>
       <Header/>

@@ -12,12 +12,12 @@ const Menu = () =>{
     <>
     <ul>
       <li>
-        <a href="#jl-banner">
+        <a href="/">
           Home
         </a>
       </li>
       <li>
-        <a href="#jl-about">
+        <a href="/about">
           About Us
         </a>
       </li>
