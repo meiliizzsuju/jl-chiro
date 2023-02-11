@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header,HomeBanner,About, WhyUS, Conditions, Pricing, CTAPhone} from '../components/index';
+import {Header,HomeBanner,About, WhyUS, Conditions, Pricing, CTAPhone, Footer} from '../components/index';
 
 import {content} from '../utils/content.js'
 
@@ -17,6 +17,7 @@ const Home = () => {
       <Conditions/>
       <Pricing/>
       <CTAPhone title={content.homeCTA.text} button={content.homeCTA.button} phone_no={content.homeCTA.phone}/>
+      <Footer/>
     </div>
   )
 }

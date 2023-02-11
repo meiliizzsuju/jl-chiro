@@ -12,9 +12,9 @@
   --font-size--normal: 17px;
 
   --color-primary: #5E8DD4;
-  --color-secondary-rgb: #1E1E1E;
+  --color-secondary: #1E1E1E;
   --color-tertiary:  #F6F2EA;
-  --color-quaternary: var(--color-secondary-rgb); 
+  --color-quaternary: var(--color-secondary); 
   --color-quinary: #fff; 
   
   --color-bg: var(--color-quinary);
