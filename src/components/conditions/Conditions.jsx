@@ -8,7 +8,7 @@ import treat2 from '../../assets/conditions/headache.png';
 
 import './Conditions.css';
 
-const Conditions = () => {
+const Conditions = ({buttonEnable}) => {
   const navigate = useNavigate();
 
   const isMobile = useMediaQuery({ maxWidth: 640 })
@@ -44,18 +44,22 @@ const Conditions = () => {
             <p>Hip pain</p>
           </div>
         </div>
-        <div className='jl-condition__bottom text-center mt-6'>
-          {isMobile ? (
-            <button onClick={()=> navigate(`/what-to-expect`)} 
-            className="btn btn-primary mobile">
-              <span>{content.conditions.button}</span>
-            </button>
-          ):(
-            <button onClick={()=> navigate(`/what-to-expect`)} className="jl-condition--button desktop">
-              <span>{content.conditions.button}</span>
-            </button>
-          )}
-        </div>
+        {
+          buttonEnable ? (
+          <div className='jl-condition__bottom text-center mt-6'>
+            {isMobile ? (
+              <button onClick={()=> navigate(`/treatments`)} 
+              className="btn btn-primary mobile">
+                <span>{content.conditions.button}</span>
+              </button>
+            ):(
+              <button onClick={()=> navigate(`/treatments`)} className="jl-condition--button desktop">
+                <span>{content.conditions.button}</span>
+              </button>
+            )}
+          </div>
+          ) : ('')
+        }
       </div>
     </section>
   )

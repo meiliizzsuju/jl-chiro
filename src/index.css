@@ -36,6 +36,10 @@ h1,h2,h3,h4,h5,.font-heading {
   letter-spacing: 0.03rem;
 }
 
+b, strong{
+  font-weight: 700;
+}
+
 h1,h2,h3,h4,h5,p{
   margin-top: 1rem;
   margin-bottom: 1rem;

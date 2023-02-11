@@ -22,8 +22,8 @@ const Menu = () =>{
         </a>
       </li>
       <li>
-        <a href="#jl-conditions">
-          Conditions
+        <a href="/treatments">
+          Treatments
         </a>
       </li>
       <li>

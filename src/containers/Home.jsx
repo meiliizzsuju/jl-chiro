@@ -13,7 +13,7 @@ const Home = () => {
       <Header/>
       <HomeBanner/>
       <WhyUS/>
-      <Conditions/>
+      <Conditions buttonEnable={true}/>
       <About/>
       <Pricing/>
       <CTAPhone title={content.homeCTA.text} button={content.homeCTA.button} phone_no={content.homeCTA.phone}/>
