@@ -87,5 +87,10 @@ export const content = {
       },
 
     ]
+  },
+  homeCTA: {
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    button: "Call Now",
+    phone: "0411229276"
   }
 }

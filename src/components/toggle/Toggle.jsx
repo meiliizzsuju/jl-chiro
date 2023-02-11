@@ -20,7 +20,7 @@ const Toggle = ({item}) => {
           <div className='jl-pricing__toggle--content'>
             <ul>
               {item.content.map((tc,i)=>(
-                <li dangerouslySetInnerHTML={{__html: tc}}></li>
+                <li dangerouslySetInnerHTML={{__html: tc}} key={tc+i}></li>
               ))}
             </ul>
           </div>

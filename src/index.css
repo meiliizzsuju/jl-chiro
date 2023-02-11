@@ -13,7 +13,7 @@
 
   --color-primary: #5E8DD4;
   --color-secondary-rgb: #1E1E1E;
-  --color-tertiary:  var(--color-primary); 
+  --color-tertiary:  #F6F2EA;
   --color-quaternary: var(--color-secondary-rgb); 
   --color-quinary: #fff; 
   
@@ -135,6 +135,10 @@ h2,.font-h2{
 
 .list-circle{
   list-style: circle !important;
+}
+
+.bg-tertiary{
+  background-color: var(--color-tertiary);
 }
 
 /* Tablet */
