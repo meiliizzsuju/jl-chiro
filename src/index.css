@@ -9,6 +9,7 @@
 :root {
   --font-family: 'Inter', sans-serif;
   --font-family-head: var(--font-family);
+  --font-size--normal: 17px;
 
   --color-primary: #5E8DD4;
   --color-secondary-rgb: #1E1E1E;
@@ -127,8 +128,13 @@ a:focus::before{
 h1{
   font-size: 24px;
 }
-h2{
+h2,.font-h2{
   font-size: 18px;
+}
+
+
+.list-circle{
+  list-style: circle !important;
 }
 
 /* Tablet */
@@ -136,6 +142,13 @@ h2{
 @media (min-width: 768px){
   .section__padding{
     padding: 3rem;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+  h2,.font-h2{
+    font-size: 28px;
   }
 }
 
@@ -149,7 +162,7 @@ h2{
     font-size: 36px;
   }
 
-  h2{
+  h2,.font-h2{
     font-size: 32px;
   }
 
@@ -168,8 +181,12 @@ h2{
     font-size: 48px;
   }
 
-  h2{
+  h2,.font-h2{
     font-size: 40px;
+  }
+
+  :root{
+    --font-size--normal: 20px;
   }
 }
 

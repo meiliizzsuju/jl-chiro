@@ -46,5 +46,46 @@ export const content = {
     h2: "Conditions we treat",
     slug: "conditions",
     button: "What to expect during treatment?"
+  },
+  pricing: {
+    list: [
+      {
+        item: 'Initial Consultation',
+        price: '$160'
+      },
+      {
+        item: 'Standard Consultation',
+        price: '$140'
+      },
+      {
+        item: 'Off hour consultation',
+        price: '$180'
+      }
+    ],
+    remark: 'All consultation includes prices of travel within the service area.',
+    toggles: [
+      {
+        titile: 'Cancellation policy',
+        content: [
+          '24 hour notice is required to cancel or reschedule an appointment',
+          'Cancellation prior to 2 hour of treatment will be charged the full cost of the appointment'
+        ]
+      },
+      {
+        titile: 'Extra fees',
+        content: [
+          'Any parking feels will need to be added. We always aim to find unrestricted parking first, however if we are unable to, we will let you know before your treatment begins.',
+          'Toll fees'
+        ]
+      },
+      {
+        titile: 'Service areas',
+        content: [
+          'We offer our service to anywhere within 30 kms of Dee why',
+          'These includes the districts of <br/> <ul class="list-circle"><li>Northern beaches</li><li>Upper north shore</li><li>Lower north shore</li><li>Central sydney</li></ul>'
+        ]
+      },
+
+    ]
   }
 }
