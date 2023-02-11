@@ -29,6 +29,10 @@
 
 
 @media (min-width: 768px) {
+  .treatments .jl-condition__box{
+    flex-wrap: nowrap;
+  }
+  
   .treatments .jl-condition__box--item{
     width: 33.33%;
   }
