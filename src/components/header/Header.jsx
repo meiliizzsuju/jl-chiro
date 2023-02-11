@@ -27,7 +27,7 @@ const Menu = () =>{
         </a>
       </li>
       <li>
-        <a href="#jl-contact">
+        <a href="/contact">
           Contact
         </a>
       </li>
