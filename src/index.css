@@ -40,6 +40,10 @@ h1,h2,h3,h4,h5,p{
   margin-bottom: 1rem;
 }
 
+p,a,button{
+  font-size: 17px;
+}
+
 
 body {
   font-family: var(--font-family);
@@ -105,6 +109,11 @@ a:focus::before{
   color: var(--color-primary);
 }
 
+.btn-primary{
+  background-color: var(--color-btn-bg);
+  border-color: var(--color-btn-bg);
+  color: var(--color-btn-text);
+}
 
 .section__padding{
   padding: 2rem;
@@ -143,12 +152,18 @@ h2{
   h2{
     font-size: 32px;
   }
+
+  
 }
 
 
 /* lx screen */
 
 @media (min-width: 1280px){
+  p,a,button{
+    font-size: 20px;
+  }
+
   h1{
     font-size: 48px;
   }

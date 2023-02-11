@@ -41,5 +41,10 @@ export const content = {
         content: "Jin Young Lim's mobile service is not restricted to one physical location which makes it easy for the patient to schedule and find a nearby location.",
       },
     ]
+  },
+  conditions: {
+    h2: "Conditions we treat",
+    slug: "conditions",
+    button: "What to expect during treatment?"
   }
 }

@@ -5,7 +5,6 @@ import {content} from '../../utils/content';
 import './WhyUs.css'
 
 const WhyUS = () => {
-  console.log(content.whyus.services)
   
   return (
     <section className='jl-whyus section__padding'>
