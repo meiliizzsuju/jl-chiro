@@ -14,6 +14,7 @@
   padding: 0.5rem;
 }
 
+
 .jl-whyus__service:last-child{
   width: 100%;
 }
@@ -21,6 +22,10 @@
 .jl-whyus__service img,
 .jl-whyus__service .service__title{
   cursor: pointer;
+}
+
+.jl-whyus__service .service__title{
+  margin-top: 1.5rem;
 }
 
 
@@ -62,5 +67,9 @@
 @media (min-width: 1280px) {
   .jl-whyus__services{
     margin-top: 3rem;
+  }
+
+  .jl-whyus__service .service__title{
+    margin-top: 2rem;
   }
 }

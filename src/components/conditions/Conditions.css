@@ -1,4 +1,62 @@
+@keyframes shake {
+  0% {
+    transform: translate(3px, 0);
+  }
+  50% {
+    transform: translate(-3px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
 
+@-moz-keyframes shake {
+  0% {
+    -moz-transform: translate(3px, 0);
+  }
+  50% {
+    -moz-transform: translate(-3px, 0);
+  }
+  100% {
+    -moz-transform: translate(0, 0);
+  }
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(3px, 0);
+  }
+  50% {
+    -webkit-transform: translate(-3px, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+  }
+}
+
+@-ms-keyframes shake {
+  0% {
+    -ms-transform: translate(3px, 0);
+  }
+  50% {
+    -ms-transform: translate(-3px, 0);
+  }
+  100% {
+    -ms-transform: translate(0, 0);
+  }
+}
+
+@-o-keyframes shake {
+  0% {
+    -o-transform: translate(3px, 0);
+  }
+  50% {
+    -o-transform: translate(-3px, 0);
+  }
+  100% {
+    -o-transform: translate(0, 0);
+  }
+}
 
 .jl-condition__box{
   margin-top: 3rem;
@@ -62,6 +120,15 @@
   transform: scale(1,1);
 }
 
+/* anim */
+
+.jl-condition__box--item:hover {
+  animation: shake 150ms 2 linear;
+  -moz-animation: shake 150ms 2 linear;
+  -webkit-animation: shake 150ms 2 linear;
+  -o-animation: shake 150ms 2 linear;
+}
+
 @media (min-width: 640px) {
   .jl-condition__box{
     display: flex;
@@ -76,7 +143,7 @@
 
   .jl-condition__box--item,
   .jl-condition__box--item + .jl-condition__box--item{
-    margin-top: 1rem;
+    margin-top: 0;
   }
 }
 

@@ -3,8 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import {content} from '../../utils/content';
 
-import treat1 from '../../assets/conditions/lowerback.png';
-import treat2 from '../../assets/conditions/headache.png';
+import treat1 from '../../assets/conditions/lower-back-pain.svg';
+import treat2 from '../../assets/conditions/headache.svg';
+import treat3 from '../../assets/conditions/neckpain.svg';
+import treat4 from '../../assets/conditions/frozen-sholder.svg';
+import treat5 from '../../assets/conditions/disc-herniation.svg';
+import treat6 from '../../assets/conditions/hip-pain.svg';
 
 import './Conditions.css';
 
@@ -28,19 +32,19 @@ const Conditions = ({buttonEnable}) => {
             <p>Headache</p>
           </div>
           <div className='jl-condition__box--item'>
-            <img src={treat1} alt="Neck pain" />
+            <img src={treat3} alt="Neck pain" />
             <p>Neck pain</p>
           </div>
           <div className='jl-condition__box--item'>
-            <img src={treat1} alt="Frozen shoulder" />
+            <img src={treat4} alt="Frozen shoulder" />
             <p>Frozen shoulder</p>
           </div>
           <div className='jl-condition__box--item'>
-            <img src={treat1} alt="Disc herniation" />
+            <img src={treat5} alt="Disc herniation" />
             <p>Disc herniation</p>
           </div>
           <div className='jl-condition__box--item'>
-            <img src={treat1} alt="Hip pain" />
+            <img src={treat6} alt="Hip pain" />
             <p>Hip pain</p>
           </div>
         </div>

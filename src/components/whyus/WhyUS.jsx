@@ -15,7 +15,7 @@ const WhyUS = () => {
             {
               content.whyus.services.map((s,i) => (
                 <Service title={s.title}
-                slug={s.slug}
+                  slug={s.slug}
                   key={s.slug}
                   classPrefix='jl-whyus'
                   serviceObj={s}

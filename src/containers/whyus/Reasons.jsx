@@ -4,9 +4,12 @@ import { Footer, Header, PageBanner } from '../../components';
 
 import {content} from '../../utils/content.js';
 import banner_img from '../../assets/about.jpg'
+import defaultIMG from '../../assets/jl-logo.png';
+
 import './Reasons.css';
 
 const PAGE_NAME = 'whyus';
+const DEFAULT_SERVICE_IMG = defaultIMG;
 
 const Reasons = () => {
   const pageSlug = useParams();
@@ -25,7 +28,7 @@ const Reasons = () => {
           <div className='container mx-auto'>
             <div className={PAGE_NAME+'__content--feature'}>
               <div className={PAGE_NAME+'__content--feature--box'}>
-                <img src={GET_CURRENT_SERVICEG.icon ? (GET_CURRENT_SERVICEG.icon) : ('')} alt={GET_CURRENT_SERVICEG.title} />
+                <img src={GET_CURRENT_SERVICEG.icon ? (process.env.PUBLIC_URL+GET_CURRENT_SERVICEG.icon) : (DEFAULT_SERVICE_IMG)} alt={GET_CURRENT_SERVICEG.title} />
                 <p className='service__title'>{GET_CURRENT_SERVICEG.title}</p>
                 <p>{GET_CURRENT_SERVICEG.content}</p>
               </div>
@@ -35,7 +38,7 @@ const Reasons = () => {
                 {
                   OTHER_SERVICES.map((item,i) => (
                     <div className={PAGE_NAME+'__content--others--box'} key={item+i} onClick={()=> navigate(`/whyus/${item.slug}`)}>
-                      <img src={item.icon ? (item.icon) : ('')} alt={item.title} />
+                      <img src={item.icon ? (process.env.PUBLIC_URL+item.icon) : (DEFAULT_SERVICE_IMG)} alt={item.title} />
                       <p className='service__title'>{item.title}</p>
                     </div>
                   ))
