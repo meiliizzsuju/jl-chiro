@@ -121,6 +121,13 @@ a:focus::before{
   color: var(--color-btn-text);
 }
 
+.btn-nostyle{
+
+}
+.btn-nostyle::before{
+  display: none;
+}
+
 .section__padding{
   padding: 2rem;
 }

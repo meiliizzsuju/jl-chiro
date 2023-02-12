@@ -7,18 +7,18 @@ import logo from '../../assets/jl-logo.png';
 const Footer = () => {
   const thisYear = new Date().getFullYear();
 
-  const FB_LINK = 'https://www.facebook.com/mana.deewhy/';
-  const IG_LINK = 'https://www.instagram.com/mana.wellness.deewhy/';
+  const FB_LINK = '#';
+  const IG_LINK = '#';
   const credit_link = 'http://tichatin.com/';
 
 
   return (
     <footer className='footer'>
       <div className='footer__main text-center section__padding'>
-        <img src={logo} alt="Footer Logo" className='footer__main--logo'/>
+        <a href='/' className='btn-nostyle'><img src={logo} alt="Footer Logo" className='footer__main--logo'/></a>
         <ul>
           <li>
-            <a href="tel:0280187443" className="m-1 mx-2" aria-label='Call 02 8018 7443'>(02) 8018 7443</a>
+            <a href="tel:0411229276" className="m-1 mx-2" aria-label='Call 0411 229 276'>0411 229 276</a>
           </li>
           <li>
             <a href={FB_LINK} target="_blank" rel="noreferrer">
