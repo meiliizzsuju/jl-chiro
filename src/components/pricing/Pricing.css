@@ -17,8 +17,13 @@
 .jl-pricing__toggles{
   border-top: 2px solid #D9D9D9;
 }
+
 .jl-pricing__toggle + .jl-pricing__toggle{
   border-top: 2px solid #D9D9D9;
+}
+
+.jl-pricing__toggle{
+  cursor: pointer;
 }
 
 .jl-pricing__toggle ul{
