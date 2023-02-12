@@ -34,7 +34,17 @@
 .whyus__content--others--box{
   width: 50%;
   text-align: center;
+  cursor: pointer;
 }
+
+.whyus__content--others--box .service__title{
+  transition: color 0.15s ease-in-out;
+}
+
+.whyus__content--others--box:hover .service__title{
+  color: var(--color-primary);
+}
+
 .whyus__content--others--box img{
   margin: 0 auto;
 }
