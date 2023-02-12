@@ -10,6 +10,7 @@
   --font-family: 'Inter', sans-serif;
   --font-family-head: var(--font-family);
   --font-size--normal: 17px;
+  --font-weight--bold: 700;
 
   --color-primary: #5E8DD4;
   --color-secondary: #1E1E1E;

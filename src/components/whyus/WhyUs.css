@@ -18,6 +18,11 @@
   width: 100%;
 }
 
+.jl-whyus__service img,
+.jl-whyus__service .service__title{
+  cursor: pointer;
+}
+
 
 @media (min-width: 640px) {
   .jl-whyus__service,

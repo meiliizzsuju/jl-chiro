@@ -18,7 +18,7 @@ const Service = ({title,slug,serviceObj,classPrefix}) => {
 
   return (
     <>
-        <div onClick={()=> navigate(`/services/${slug}`)}
+        <div onClick={()=> navigate(`/whyus/${slug}`)}
           className={classPrefixVal+'service service'}
         >
           <img src={serviceObj.cover_image ? (process.env.PUBLIC_URL+serviceObj.cover_image) : (DEFAULT_SERVICE_IMG)} alt={title} />

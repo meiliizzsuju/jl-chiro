@@ -9,7 +9,7 @@ const PageBanner = ({banner_image,title}) => {
 
   return (
     <div className='page-banner'>
-      <img src={banner_image ? (process.env.PUBLIC_URL+banner_image) : (DEFAULT_BANNER_IMG)} alt="page-banner" aria-hidden='true'/>
+      <img src={banner_image ? (banner_image) : (DEFAULT_BANNER_IMG)} alt="page-banner" aria-hidden='true'/>
       {title && (
         <>
           <div className='page-banner__text section__padding'>

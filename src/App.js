@@ -5,6 +5,7 @@ import Home from './containers/Home';
 import Page from './containers/Page';
 import Contact from './containers/Contact';
 import Treatments from './containers/treatments/Treatments';
+import Reasons from './containers/whyus/Reasons';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Route path='/about' element={<Page />} />
       <Route path='/treatments' element={<Treatments />} />
       <Route path='/contact' element={<Contact />} />
+      <Route path='/whyus/:slug' element={<Reasons />} />
     </Routes>
   )
 }
