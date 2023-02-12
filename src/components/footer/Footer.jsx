@@ -9,7 +9,6 @@ const Footer = () => {
 
   const FB_LINK = '#';
   const IG_LINK = '#';
-  const credit_link = 'http://tichatin.com/';
 
 
   return (

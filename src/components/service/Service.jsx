@@ -16,8 +16,6 @@ const Service = ({title,slug,serviceObj,classPrefix}) => {
 
   const classPrefixVal = getClassPrefix()
 
-  console.log(serviceObj)
-
 
   return (
     <>

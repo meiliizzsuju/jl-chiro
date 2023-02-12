@@ -42,8 +42,6 @@ const Header = () => {
   const isNotDeskTop = useMediaQuery({ maxWidth: 1023 })
   const [navToggle, setnavToggle] = useState(false);
 
-  console.log(navToggle)
-
   return (
     <header className='header'>
       <div className='mx-auto'>
