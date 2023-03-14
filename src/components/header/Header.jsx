@@ -21,7 +21,7 @@ const Menu = () =>{
       </li>
       <li>
         <a href="/about">
-          About Dr. Jin
+          About Dr. Jin
         </a>
       </li>
       <li>
