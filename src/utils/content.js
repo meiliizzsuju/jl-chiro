@@ -1,6 +1,8 @@
 export const content = {
   banner: {
-    h1: 'Chiropractic care <br/>that comes to you'
+    h1: 'Chiropractic care <br/>that comes to you',
+    button: 'See range of treatments',
+    linkto: '/treatments'
   },
   about: {
     h2: 'Meet your chiropractor',

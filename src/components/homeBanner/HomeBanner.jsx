@@ -10,7 +10,11 @@ const HomeBanner = () => {
   return (
     <section id='#jl-banner' className='home-banner section__padding flex items-center align-center text-center' style={{ backgroundImage: `url(${BANNER_IMG})` }}>
       <div className='container mx-auto md:text-right'>
-        <h1 dangerouslySetInnerHTML={{__html: content.banner.h1}}></h1>
+        <h1 dangerouslySetInnerHTML={{ __html: content.banner.h1 }}></h1>
+        
+        <a href={content.banner.linkto} className="btn btn-primary">
+          {content.banner.button}
+        </a>
       </div>
     </section>
   )

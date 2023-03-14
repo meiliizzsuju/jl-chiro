@@ -1,9 +1,12 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
+import { content } from '../../utils/content.js';
 
 import './header.css'
 import logo from '../../assets/jl-logo.png';
+
+const phone_no = content.homeCTA.phone;
 
 const BOOKNOW_BTN = "";
 
@@ -71,10 +74,10 @@ const Header = () => {
           )}
           
           <div className='header__contact'>
-            <a href={BOOKNOW_BTN}
+            <a href={'tel:'+phone_no}
               className='m-1 mx-2 mt-4 btn btn-trans lg:ml-4'
             >
-              BOOK ONLINE
+              Call Now
             </a>
           </div>
         </div>
