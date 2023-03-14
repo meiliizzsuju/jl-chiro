@@ -59,7 +59,7 @@ export const content = {
       },
       {
         item: 'Off hour consultation',
-        price: '$180'
+        price: '$200'
       }
     ],
     remark: 'All consultation includes prices of travel within the service area.',
@@ -81,7 +81,7 @@ export const content = {
       {
         titile: 'Service areas',
         content: [
-          'We offer our service to anywhere within 30 kms of Dee why',
+          'We offer our service to anywhere within 15 kilometers of Dee why',
           'These includes the districts of <br/> <ul class="list-circle"><li>Northern beaches</li><li>Upper north shore</li><li>Lower north shore</li><li>Central sydney</li></ul>'
         ]
       },
@@ -89,7 +89,7 @@ export const content = {
     ]
   },
   homeCTA: {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    text: "Get Chiropractor that comes to you, in need of helps?",
     button: "Call Now",
     phone: "0411229276"
   }

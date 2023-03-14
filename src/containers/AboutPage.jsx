@@ -6,7 +6,9 @@ import { banner_img, about_img } from '../assets/index.js';
 
 const ABOUT_IMG = about_img;
 
-const PAGE_NAME = 'pageabout'
+const PAGE_NAME = 'pageabout';
+const phone_no = content.homeCTA.phone;
+const btn_text = content.homeCTA.button;
 
 const Home = () => {
   const isMobile = useMediaQuery({ maxWidth: 550 })
@@ -35,7 +37,7 @@ const Home = () => {
 
               <p>He is passionate about helping people lead healthier, more active lives and is dedicated to providing the highest level of care to his patients. With his background, training and experience, he is committed to helping his patients improve their quality of life through natural, holistic care.</p>
               
-            
+              <a href={'tel:'+phone_no} className="btn btn-primary">{btn_text}</a>
             </div>
           </div>
         </div>
