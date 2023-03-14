@@ -18,7 +18,7 @@ const Menu = () =>{
       </li>
       <li>
         <a href="/about">
-          About Us
+          About Dr. Jin
         </a>
       </li>
       <li>

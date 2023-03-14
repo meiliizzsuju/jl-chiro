@@ -2,8 +2,10 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import {content} from '../../utils/content';
-import ABOUT_IMG from '../../assets/about.jpg';
+import { about_img } from '../../assets/index.js';
 import './about.css';
+
+const ABOUT_IMG = about_img;
 
 const About = () => {
   const navigate = useNavigate();
