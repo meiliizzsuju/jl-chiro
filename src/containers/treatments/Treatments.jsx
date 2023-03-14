@@ -2,7 +2,7 @@ import React from 'react';
 import {Header, PageBanner, Footer, Conditions} from '../../components/index';
 
 import './Treatments.css'
-import banner_img from '../../assets/banner.jpg'
+import {banner_img} from '../../assets/index.js';
 
 
 const PAGE_NAME = 'treatments';

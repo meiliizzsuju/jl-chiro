@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { Footer, Header, PageBanner } from '../../components';
 
 import {content} from '../../utils/content.js';
-import banner_img from '../../assets/about.jpg'
+import {banner_img} from '../../assets/index.js';
 import defaultIMG from '../../assets/jl-logo.png';
 
 import './Reasons.css';

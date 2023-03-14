@@ -1,7 +1,9 @@
 import React from 'react';
 import {content} from '../../utils/content';
 import './HomeBanner.css'
-import BANNER_IMG from '../../assets/banner.jpg'
+import { banner_img } from '../../assets/index.js';
+
+const BANNER_IMG = banner_img
 
 const HomeBanner = () => {
 

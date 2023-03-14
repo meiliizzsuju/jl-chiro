@@ -38,3 +38,7 @@
   letter-spacing: 0.2rem;
   text-align: center;
 }
+
+.page-banner__text h1{
+  text-shadow: 0px 0px 15px rgba(23, 42, 104,0.9);
+}

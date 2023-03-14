@@ -2,7 +2,7 @@ import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 
 import Home from './containers/Home';
-import Page from './containers/Page';
+import Page from './containers/AboutPage';
 import Contact from './containers/Contact';
 import Treatments from './containers/treatments/Treatments';
 import Reasons from './containers/whyus/Reasons';
