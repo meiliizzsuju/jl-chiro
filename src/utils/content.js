@@ -1,6 +1,6 @@
 export const content = {
   banner: {
-    h1: 'SOME BIG TEXT HERE <br/>AND ALSO SOME BIG TEXT HERE'
+    h1: 'Chiropractic care <br/>that comes to you'
   },
   about: {
     h2: 'Meet your chiropractor',
