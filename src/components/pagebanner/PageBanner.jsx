@@ -1,6 +1,6 @@
 import React from 'react';
 
-import banner_img from '../../assets/about.jpg';
+import { banner_img } from '../../assets/index.js';
 import './PageBanner.css';
 
 const DEFAULT_BANNER_IMG = banner_img;
