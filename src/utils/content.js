@@ -1,10 +1,12 @@
 export const content = {
   banner: {
-    h1: 'Chiropractic care <br/>that comes to you'
+    h1: 'Chiropractic care <br/>that comes to you',
+    button: 'See range of treatments',
+    linkto: '/treatments'
   },
   about: {
     h2: 'Meet your chiropractor',
-    suphead: 'Dr. Jin young Lim <br/>(chiropractor)',
+    suphead: 'Dr. Jin young Lim <br/>(chiropractor)',
     desc: 'He has always been passionate about sports and fitness and was determined to find a way to help others who were suffering from injuries and pain.'
   },
   whyus: {

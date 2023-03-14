@@ -9,6 +9,16 @@
   margin-top: 0.5rem;
 }
 
+.service__icon{
+  transition: transform 0.4s ease-in-out;
+}
+
+.service__icon:hover,
+.service__icon:active,
+.service__icon:focus{
+  transform: translate(0,-1rem);
+}
+
 
 @media (min-width: 768px) {
   .service img{
