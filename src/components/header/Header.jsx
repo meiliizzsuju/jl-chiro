@@ -8,8 +8,6 @@ import logo from '../../assets/jl-logo.png';
 
 const phone_no = content.homeCTA.phone;
 
-const BOOKNOW_BTN = "";
-
 const Menu = () =>{
   return (
     <>
