@@ -1,7 +1,7 @@
 import React from 'react';
 import {content} from '../../utils/content';
 import './HomeBanner.css'
-import BANNER_IMG from '../../assets/banner.jpg'
+import BANNER_IMG from '../../assets/home-banner.png'
 
 const HomeBanner = () => {
 

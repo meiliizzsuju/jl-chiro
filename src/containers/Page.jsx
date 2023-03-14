@@ -3,7 +3,7 @@ import {Header, Footer, PageBanner} from '../components/index';
 
 import {content} from '../utils/content.js';
 
-import banner_img from '../assets/about.jpg';
+import banner_img from '../assets/home-banner.png'
 
 const PAGE_NAME = 'page__about'
 

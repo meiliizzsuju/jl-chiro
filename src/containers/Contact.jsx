@@ -1,7 +1,7 @@
 import React from 'react';
 import {Header, PageBanner, Footer} from '../components/index';
 
-import banner_img from '../assets/banner.jpg'
+import banner_img from '../assets/home-banner.png'
 
 
 const PAGE_NAME = 'contact';
