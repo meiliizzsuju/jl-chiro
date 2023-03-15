@@ -21,7 +21,7 @@ const Home = () => {
           <div className='container mx-auto'>
             <div className={PAGE_NAME + '__content--body'}>
               <div className={PAGE_NAME + '__image mx-auto md:float-right'}>
-                <img src={ABOUT_IMG} alt="About" width={isMobile ? (250) : (540)} className={PAGE_NAME + '__image--img'}/>
+                <img src={ABOUT_IMG} alt="About" width={isMobile ? (250) : (540)} height={isMobile ? (263) : (570)} className={PAGE_NAME + '__image--img'}/>
               </div>
               
             
