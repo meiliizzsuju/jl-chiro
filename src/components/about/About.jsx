@@ -31,7 +31,7 @@ const About = () => {
           </button>
         </div>
         <div className='about__image'>
-          <img src={ABOUT_IMG} alt="About" width={isMobile ? (250) : (540)}/>
+          <img src={ABOUT_IMG} alt="About" width={isMobile ? (250) : (540)} height={isMobile ? (263) : (570)}/>
         </div>
       </div>
     </section>
