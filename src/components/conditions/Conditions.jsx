@@ -24,7 +24,7 @@ const Conditions = ({buttonEnable}) => {
 
         <div className='jl-condition__box'>
           <div className='jl-condition__box--item'>
-            <img src={treat1} alt="Lower back pain" />
+            <img src={treat1} alt="Lower back pain" width={isMobile ? (100) : (195)} height={isMobile ? (100) : (195)}/>
             <p>Lower back pain</p>
           </div>
           <div className='jl-condition__box--item'>
