@@ -20,15 +20,20 @@ const Footer = () => {
             <a href="tel:0411229276" className="m-1 mx-2" aria-label='Call 0411 229 276'>0411 229 276</a>
           </li>
           <li>
+            <a href='/contact'>
+              Contact
+            </a>
+          </li>
+          {/* <li>
             <a href={FB_LINK} target="_blank" rel="noreferrer">
               Facebook
             </a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a href={IG_LINK} target="_blank" rel="noreferrer">
               Instagram
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
       
