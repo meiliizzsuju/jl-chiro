@@ -7,8 +7,8 @@ import logo from '../../assets/jl-logo.png';
 const Footer = () => {
   const thisYear = new Date().getFullYear();
 
-  const FB_LINK = '#';
-  const IG_LINK = '#';
+  // const FB_LINK = '#';
+  // const IG_LINK = '#';
 
 
   return (
