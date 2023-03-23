@@ -2,9 +2,9 @@ import React from 'react';
 import {Header, Footer, PageBanner} from '../components/index';
 import { useMediaQuery } from 'react-responsive';
 import {content} from '../utils/content.js';
-import { banner_img, about_img } from '../assets/index.js';
+import { banner_img } from '../assets/index.js';
 
-const ABOUT_IMG = about_img;
+const ABOUT_IMG = '/assets/images/about.png';
 
 const PAGE_NAME = 'pageabout';
 const phone_no = content.homeCTA.phone;

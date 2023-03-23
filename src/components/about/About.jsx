@@ -2,10 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import {content} from '../../utils/content';
-import { about_img } from '../../assets/index.js';
 import './about.css';
 
-const ABOUT_IMG = about_img;
 
 const About = () => {
   const navigate = useNavigate();
@@ -31,7 +29,7 @@ const About = () => {
           </button>
         </div>
         <div className='about__image'>
-          <img src={ABOUT_IMG} alt="About" width={isMobile ? (250) : (540)} height={isMobile ? (263) : (570)}/>
+          <img src="/assets/images/about.png" alt="Profile of Dr. Jin" width={isMobile ? (250) : (540)} height={isMobile ? (263) : (570)}/>
         </div>
       </div>
     </section>
